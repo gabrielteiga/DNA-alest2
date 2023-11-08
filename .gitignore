@@ -1,0 +1,42 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+./.idea/
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Arquivos .class ###
+./out/
+
+### Arquivos de configuração ###
+./algoritmos.iml
+
+### Exemplos de casos muito grandes ###
+/src/resources/casos/caso8.txt 
+/src/resources/casos/caso7.txt
+/src/resources/saidas/saida-caso7.txt
+/src/resources/saidas/saida-caso8.txt
