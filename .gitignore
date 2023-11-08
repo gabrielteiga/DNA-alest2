@@ -33,7 +33,7 @@ bin/
 ./out/
 
 ### Arquivos de configuração ###
-./algoritmos.iml
+algoritmos.iml
 
 ### Exemplos de casos muito grandes ###
 /src/resources/casos/caso8.txt 
