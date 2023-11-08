@@ -28,7 +28,7 @@ Criação de um projeto em Java que irá manipular uma string, buscando a resolu
 
 ## Funcionalidades
 * <b>Resolução do problema DNA</b>: Cumpre com os requisitos levantados no problema do projeto.
-* <b>Escrita em arquivo de saída</b>:
+* <b>Escrita em arquivo de saída</b>: Classe para registrar os resultados do nosso algoritmo.
 
 ## Utilização do projeto
 
