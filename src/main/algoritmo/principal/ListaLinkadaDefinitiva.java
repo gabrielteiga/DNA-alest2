@@ -6,6 +6,10 @@ import main.leitura.LeitoraCaractereLinked;
 import java.util.LinkedList;
 
 public class ListaLinkadaDefinitiva {
+
+    private final static String CASO = "caso8";
+    private final static String PATH = "src/resources/casos/" + CASO + ".txt";
+
     private static Character simboloDiferente(Character simbolo1, Character simbolo2) {
         if ((simbolo1 == 'D' || simbolo1 == 'N') && (simbolo2 == 'N' || simbolo2 == 'D'))
             return 'A';
@@ -39,9 +43,7 @@ public class ListaLinkadaDefinitiva {
         System.out.println("-------- Teste com LinkedList --------");
 
         LeitoraCaractereLinked leitora = new LeitoraCaractereLinked();
-        String caso = "caso8";
-        String path = "src/resources/casos/" + caso + ".txt";
-        LinkedList<Character> palavra = leitora.getCadeiaDeCaracteres(path);
+        LinkedList<Character> palavra = leitora.getCadeiaDeCaracteres(PATH);
 
         long startTime = System.nanoTime();
         algoritmo(palavra);
